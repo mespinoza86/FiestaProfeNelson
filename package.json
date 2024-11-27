@@ -1,0 +1,21 @@
+{
+  "name": "fiestasmartfit",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "express": "^4.21.1",
+    "jimp": "^1.6.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.5",
+    "uuid": "^11.0.3"
+  }
+}

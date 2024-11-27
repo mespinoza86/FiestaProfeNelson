@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Invitados</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container"> <!-- Contenedor principal centrado -->
+        <h1>Agregar Invitados</h1>
+        <form id="formAgregar" class="form-container"> <!-- Formulario centrado -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required><br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" required><br>
+
+            <button type="submit" class="btn">Agregar Invitado</button>
+        </form>
+
+        <button onclick="window.location.href='index.html'" class="btn">Volver al Inicio</button>
+    </div>
+
+    <script src="js/agregar.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "074dbb21-9128-4c85-afe5-172a4ed0ea57",
+    "nombre": "Marco Espinoza",
+    "telefono": "88386271",
+    "qr": "4346fa41-80d4-4d69-bbc8-c058a461e602",
+    "presente": false
+  },
+  {
+    "id": "e9701781-ab7f-4cd2-829d-c1267a0f9f0a",
+    "nombre": "Lissette Salas",
+    "telefono": "84077137",
+    "qr": "1039776a-43aa-4318-afcf-29bbb8a29918",
+    "presente": false
+  },
+  {
+    "id": "1e3b93b0-d7aa-4d89-a1c5-4b20bf093dd6",
+    "nombre": "Ricardo Jimenez",
+    "telefono": "34343434",
+    "qr": "",
+    "presente": false
+  },
+  {
+    "id": "9f2a6361-0a5e-482f-9baf-5f6671486f21",
+    "nombre": "Andrea Salas",
+    "telefono": "34737183",
+    "qr": "",
+    "presente": false
+  }
+]

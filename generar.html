@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar QR</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container"> <!-- Contenedor centrado -->
+        <h1>Generar QR para Invitado</h1>
+        
+        <!-- Formulario para seleccionar un invitado -->
+        <select id="selectInvitado" class="input-field"></select>
+        
+        <button id="generarQR" class="btn">Generar QR</button>
+        
+        <!-- Resultados del QR generado -->
+        <div id="qrResult">
+            <p id="qrText"></p>
+            <div id="qrCode"></div>
+        </div>
+
+        <!-- Botones de acción -->
+        <button id="enviarWhatsApp" class="btn">Enviar por WhatsApp</button>
+        <button onclick="window.location.href='index.html'" class="btn">Volver al Inicio</button>
+    </div>
+
+    <script src="js/generar.js"></script>
+</body>
+</html>

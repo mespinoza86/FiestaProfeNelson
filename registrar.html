@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Invitado</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container"> <!-- Contenedor centrado -->
+        <h1>Registrar Invitado</h1>
+        
+        <!-- Video para escanear QR -->
+        <div id="video-container" style="text-align: center;">
+            <video id="video" width="300" height="200" autoplay></video>
+        </div>
+        
+        <!-- Canvas oculto para procesamiento de QR -->
+        <canvas id="canvas" width="300" height="200" style="display:none;"></canvas>
+        
+        <!-- Botón para volver al inicio -->
+        <button onclick="window.location.href='index.html'" class="btn">Volver al Inicio</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script> <!-- Asegúrate de incluir jsQR -->
+    <script src="js/registrar.js"></script>
+</body>
+</html>
